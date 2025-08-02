@@ -3,7 +3,7 @@ import time
 
 # 🔐 Replace this with your Hugging Face API Token
 API_TOKEN = "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"
-API_URL = "https://huggingface.co/ibm-granite/granite-vision-3.2-2b"
+API_URL = "https://huggingface.co/bartowski/ibm-granite_granite-vision-3.2-2b-GGUF"
 
 
 
@@ -127,3 +127,4 @@ def generate_answer(context, question):
         
 #     except Exception as e:
 #         return f"⚠️ Request failed: {str(e)}"
+
