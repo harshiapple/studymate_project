@@ -12,7 +12,7 @@ Original file is located at
 from huggingface_hub import login
 
 # Enter your HF token here (you can keep it secret in real use)
-hf_token = "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"
+hf_token = "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"
 login(token=hf_token)
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
